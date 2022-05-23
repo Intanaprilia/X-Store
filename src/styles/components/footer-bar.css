@@ -1,0 +1,70 @@
+.footer-bar {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  flex-direction: column;
+  background-color: gray;
+}
+
+.footer-content {
+  display: flex;
+  padding: 30px 60px 30px 60px;
+  width: 100%;
+}
+
+.customer-service {
+  flex-grow: 1;
+  color: white;
+}
+
+.cs-link a {
+  text-decoration: none;
+  color: white;
+}
+
+.about-us {
+  flex: 1 1 auto;
+  color: white;
+}
+
+.au-link a {
+  color: white;
+}
+
+.follow-us {
+  flex-grow: 1;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+i {
+  width: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer-link {
+  display: inline-block;
+  color: white;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+.footer-copy {
+  background-color: #5d5d5d;
+}
+
+.footer-bar-copy {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  height: 44px;
+  padding-top: 10px;
+}
