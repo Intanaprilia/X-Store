@@ -1,0 +1,71 @@
+.app-bar {
+     background-color: #f9ceee;
+   }
+   
+   .app-bar-brand {
+     padding-top: 10px;
+     font-size: 45px;
+   }
+   
+   .navbar-spacer {
+     display: flex;
+     flex-grow: 1;
+   }
+   .container-navbar {
+     display: flex;
+     padding: 3px;
+     font-size: 16px;
+     text-align: end;
+     background-color: #af7ea1;
+   }
+   
+   .nav-bar li {
+     display: inline-block;
+     padding: 6px 10px 0 0;
+   }
+   
+   .app-bar-with-search {
+     display: flex;
+     justify-content: space-around;
+     align-items: baseline;
+     padding-bottom: 8px;
+   }
+   
+   .search-bar {
+     font-size: 28px;
+     padding: 10px;
+     border-radius: 5px;
+   
+     background-color: black;
+   }
+   
+   .search-bar input {
+     padding-left: 10px;
+   }
+   
+   .search-popular-word {
+     display: flex;
+     flex-grow: 1;
+   }
+   
+   .search-popular-word a {
+     color: white;
+     padding-right: 5px;
+     text-decoration: none;
+     font-size: 14px;
+   }
+   
+   .app-bar-cart {
+     padding: 10px;
+   }
+   
+   button {
+     padding: 0 10px 0 10px;
+     background-color: #2196f3;
+     cursor: pointer;
+   }
+   
+   button::hover {
+     background-color: #0f5691;
+   }
+   
