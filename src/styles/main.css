@@ -1,5 +1,6 @@
-@import './components/app-bar.css';
-@import './components/footer-bar.css';
+@import "./components/app-bar.css";
+@import "./components/footer-bar.css";
+
 
 * {
   padding: 0;
@@ -9,14 +10,53 @@
 
 html,
 body {
-  background-color: #fecd45;
   width: 100%;
   height: 100%;
-  padding: 0;
-  margin: 0;
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
   scroll-behavior: smooth;
 }
-/*  App Bar  */
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.banner-ads {
+  position: relative;
+  top: 200px;
+  background-image: url(../public/img/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.container-flash-sale {
+  width: 100%;
+}
+
+.header-flash-sale {
+  background-color: red;
+}
+
+.header-flash-sale p{
+  font-size: 48px;
+  padding-left: 20px;
+}
+
+.box-iklan-flash-sale {
+  width: 100%;
+  height: 400px;
+  margin-top: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+
+}
+
+.iklan_flash_sale {
+  width: 100%;
+  position: relative;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}

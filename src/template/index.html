@@ -4,12 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="/node_modules/bootstrap/dist/css/bootstrap.css"
-    />
-    <link rel="stylesheet" href="../styles/main.css" />
-    <link rel="stylesheet" href="../styles/responsive.css" />
     <script
       src="https://kit.fontawesome.com/79bd89534b.js"
       crossorigin="anonymous"
@@ -18,75 +12,58 @@
   </head>
   <body>
     <header>
-      <div class="app-bar">
-        <div class="container-navbar">
-          <div class="navbar-spacer"></div>
-          <nav id="navigation-drawer" class="app-bar-navigation">
-            <ul class="nav-bar">
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.google.com">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Notification</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Help Center</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div class="app-bar-with-search">
-          <div class="app-bar-brand">
-            <p class="app-bar-brand">X-STORE</p>
+      <div class="container">
+        <div class="header">
+          <div class="logo_header">
+            <p>X-STORE</p>
           </div>
-          <div class="search-bar">
-            <div class="search-bar-main">
-              <form role="search" class="search-bar-input"></form>
-              <input type="text" placeholder="Search..." name="search" />
-              <button type="submit">
-                <i class="fa-solid fa-magnifying-glass"></i>
-              </button>
-            </div>
-            <div class="search-popular-word">
-              <a href="">test</a>
-              <a href="">test</a>
-              <a href="">test</a>
-              <a href="">test</a>
-              <a href="">test</a>
-              <a href="">test</a>
-              <a href="">test</a>
-              <a href="">test</a>
+          <div class="box_search_header">
+            <div class="search_header">
+              <input
+                type="text"
+                placeholder="Search . . ."
+                id="search_header"
+              />
+              <button><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
           </div>
-          <div class="app-bar-cart">
-            <i class="fa-solid fa-cart-shopping fa-3x"></i>
+          <div class="menu_header">
+            <div class="profile_menu_header">
+              <a href="#">Daftar</a>
+              <p>|</p>
+              <a href="#">Masuk</a>
+            </div>
           </div>
         </div>
       </div>
     </header>
-
+    <main>
+      <div class="container">
+        <div class="banner-ads">
+        </div>
+      </div>
+    </main>
     <footer>
-      <div class="footer-bar">
-        <div class="footer-content">
-          <div class="customer-service">
-            <h5>Layanan Pelanggan</h5>
-            <ul>
-              <li class="cs-link"><a href="">Bantuan</a></li>
-              <li class="cs-link"><a href="">Metode Pembayaran</a></li>
-              <li class="cs-link"><a href="">Lacak Pesanan</a></li>
-              <li class="cs-link"><a href="">Hubungi Kami</a></li>
-            </ul>
+      <div class="container">
+        <div class="footer">
+          <div class="footer_grid">
+            <h1>HALAMAN</h1>
+            <a href="#">
+              <p>Bantuan</p>
+            </a>
+            <a href="#">
+              <p>Kebijakan Privasi</p>
+            </a>
+            <a href="#">
+              <p>Tentang Kami</p>
+            </a>
+            <a href="#">
+              <p>Hubungi Kami</p>
+            </a>
           </div>
-          <div class="about-us">
-            <h5>Jelajahi X-STORE</h5>
-            <ul>
-              <li class="au-link"><a href="">Tentang Kami</a></li>
-              <li class="au-link"><a href="">Panduan Penggunaan</a></li>
-            </ul>
-          </div>
-          <div class="follow-us">
-            <h5>Ikuti Kami</h5>
-            <ul class="follow-us-link">
+          <div class="footer_grid">
+            <h1>IKUTI KAMI</h1>
+            <div class="footer_sosmed">
               <li>
                 <i class="fa-brands fa-facebook"></i
                 ><a href="" class="footer-link">Facebook</a><br />
@@ -103,16 +80,11 @@
                 <i class="fa-brands fa-tiktok"></i
                 ><a href="" class="footer-link">TikTok</a><br />
               </li>
-            </ul>
+            </div>
           </div>
         </div>
-        <div class="footer-copy">
-          <p class="footer-bar-copy">
-            Copyright &copy; 2022 - X-STORE
-          </p>
-        </div>
+        <p class="copyright">Copyright &copy; 2022 - X-STORE</p>
       </div>
     </footer>
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
   </body>
 </html>
