@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/79bd89534b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/src/styles/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header">
+          <div class="logo_header">
+            <a href="/" class="title_header"><p>X-STORE</p></a>
+          </div>
+          <div class="box_search_header">
+            <div class="search_header">
+              <input
+                type="text"
+                placeholder="Search . . ."
+                id="search_header"
+              />
+              <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+          </div>
+          <div class="menu_header">
+            <div class="profile_menu_header">
+              <a href="./product.html">Daftar</a>
+              <p>|</p>
+              <a href="#">Masuk</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="product">
+          <div class="detail_product">
+            <div class="foto_product">
+              <img src="../public/img/bd-3.jpg" alt="" />
+            </div>
+            <div class="deskripsi_product">
+              <h1>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur quas, tempore libero, soluta qui ullam aspernatur,
+                temporibus voluptatum enim rem non expedita consequatur quasi.
+                Repellat nobis repudiandae architecto eveniet omnis?
+              </h1>
+              <div class="box_rate_product">
+                <div class="isi_box_rate_product">
+                  <h5>4.5</h5>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-half-fill"></i>
+                </div>
+                <span>|</span>
+                <div class="isi_box_rate_product">
+                  <h4>1</h4>
+                  <p>Penilaian</p>
+                </div>
+                <span>|</span>
+                <div class="isi_box_rate_product">
+                  <h4>3</h4>
+                  <p>Terjual</p>
+                </div>
+              </div>
+              <div class="harga_box">
+                <div class="isi_harga_box">
+                  <h3><span>Rp</span> <del>200000</del></h3>
+                  <h2><span>Rp</span> 300000</h2>
+                </div>
+                <div class="isi_harga_flashsale">
+                  <i class="ri-flashlight-fill"></i>
+                  <p>Flash Sale</p>
+                </div>
+              </div>
+              <div class="rincian_product">
+                <div class="isi_rincian_product">
+                  <h5>Kategori</h5>
+                  <p>Otomotif</p>
+                </div>
+                <div class="isi_rincian_product">
+                  <h5>Total Stok</h5>
+                  <p>40</p>
+                </div>
+                <div class="isi_rincian_product">
+                  <h5>Stok Tersisa</h5>
+                  <p>3</p>
+                </div>
+                <div class="isi_rincian_product">
+                  <h5>Dikirim Dari</h5>
+                  <p>Kalimantan Selatan</p>
+                </div>
+              </div>
+              <div class="add_cart">
+                <div class="button_box_cart">
+                  <div class="masukan_keranjang" id="masukan_keranjang2">
+                    <i class="ri-shopping-bag-line"></i>
+                    <p>Masukkan Keranjang</p>
+                  </div>
+                  <div class="masukan_keranjang" id="loading_keranjang">
+                    <img src="../../assets/icons/loading-o.svg" alt="" />
+                  </div>
+                  <div class="masukan_keranjang" id="hapus_keranjang">
+                    <i class="ri-delete-bin-7-line"></i>
+                    <p>Hapus Dari Keranjang</p>
+                  </div>
+                  <script>
+                    masukan_keranjang2.style.display = "none";
+                    hapus_keranjang.style.display = "flex";
+                  </script>
+                  <script>
+                    masukan_keranjang2.style.display = "flex";
+                    hapus_keranjang.style.display = "none";
+                  </script>
+                  <div class="beli_sekarang" onclick="view_checkout()">
+                    <p>Beli Sekarang</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- DESKRIPSI -->
+        <div class="content_view">
+          <div class="cv_title">
+            <p>Deskripsi Produk</p>
+          </div>
+          <div class="isi_cv">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus
+              sed voluptatibus libero numquam fugiat nulla commodi maxime,
+              voluptate odio soluta tenetur recusandae quasi doloremque
+              consequatur placeat laboriosam hic aut? Ullam?
+            </p>
+          </div>
+        </div>
+        <!-- PENILAIAN PRODUK -->
+        <div class="content_view">
+          <div class="cv_title">
+            <p>Penilaian Produk</p>
+            <p>1</p>
+          </div>
+          <div class="isi_cv">
+            <div class="box_isi_rating">
+              <div class="isi_user_rating">
+                <img
+                  src="../public/img/user.png"
+                  alt=""
+                />
+                <div class="text_isi_user_rating">
+                  <div class="name_text_isi_user_rating">
+                    <h5>Anu</h5>
+                    <p>08.50</p>
+                  </div>
+                  <div class="star_user_rating">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                  </div>
+                  <h3 class="desk_rat_usr">Bagus banget</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <div class="footer_grid">
+            <h1>HALAMAN</h1>
+            <a href="#">
+              <p>Bantuan</p>
+            </a>
+            <a href="#">
+              <p>Kebijakan Privasi</p>
+            </a>
+            <a href="#">
+              <p>Tentang Kami</p>
+            </a>
+            <a href="#">
+              <p>Hubungi Kami</p>
+            </a>
+          </div>
+          <div class="footer_grid">
+            <h1>IKUTI KAMI</h1>
+            <div class="footer_sosmed">
+              <li>
+                <i class="fa-brands fa-facebook"></i
+                ><a href="" class="footer-link">Facebook</a><br />
+              </li>
+              <li>
+                <i class="fa-brands fa-instagram"></i
+                ><a href="" class="footer-link">Instagram</a><br />
+              </li>
+              <li>
+                <i class="fa-brands fa-youtube"></i
+                ><a href="" class="footer-link">Youtube</a><br />
+              </li>
+              <li>
+                <i class="fa-brands fa-tiktok"></i
+                ><a href="" class="footer-link">TikTok</a><br />
+              </li>
+            </div>
+          </div>
+        </div>
+        <p class="copyright">Copyright &copy; 2022 - X-STORE</p>
+      </div>
+    </footer>
+  </body>
+</html>
